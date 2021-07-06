@@ -72,7 +72,7 @@ return Example
 ```
 
 ---
-## Example Script
+## Example Script / LocalScript
 
 ```lua
 --@@ Author Name
