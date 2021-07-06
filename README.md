@@ -29,7 +29,7 @@
 ```
 
 ---
-## Example
+## Example Module
 
 ```lua
 --@@ Author Name
@@ -67,4 +67,31 @@ local Example = {
   end
 
 end
+
+return Example
 ```
+
+---
+## Example Script
+
+```lua
+--@@ Author Name
+
+-- Services
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+--
+local ExampleClientModule = require(ReplicatedStorage:WaitForChild("Libs"):WaitForChild("ThirdParty").MadworkSignal)
+
+--
+local player = Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+--
+for _, obj in ipairs(character:GetChildren()) do
+  print(obj.Name)
+end
+```
+
+***Upated as of 07 / 06 / 21***
