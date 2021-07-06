@@ -7,7 +7,7 @@
 | Modules/Classes            | PascalCase           |
 | Constants                  | SCREAMING_SNAKE_CASE |
 | Local Variables            | camelCase            |
-| Functions                  | camelCase            |
+| Functions                  | PascalCase           |
 | Instance Variables         | PascalCase           |
 | Private Instance Variables | _PascalCase          |
 | Methods                    | PascalCase           |
