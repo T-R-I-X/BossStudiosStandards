@@ -45,6 +45,9 @@ local RandomPlayerModule = require(ReplicatedStorage:WaitForChild("Libs"):WaitFo
 local USE_PRINT = false
 
 --
+local startMessage = "[LOG]"
+
+--
 local Example = {
   Messages = {}
 } do
@@ -58,7 +61,7 @@ local Example = {
   function Example.PrintAll()
     
     for _, message in ipairs(Example.Messages)
-      print(message)
+      print(startMessage, message)
     end
     
   end
