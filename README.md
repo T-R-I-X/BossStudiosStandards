@@ -8,7 +8,7 @@
 | Constants                  | SCREAMING_SNAKE_CASE |
 | Local Variables            | camelCase            |
 | Functions                  | PascalCase           |
-| Instance Variables         | PascalCase           |
+| Instance Variables         | camelCase            |
 | Private Instance Variables | _PascalCase          |
 | Methods                    | PascalCase           |
 
